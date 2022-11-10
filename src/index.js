@@ -1,19 +1,15 @@
 
- import ReactDOM from 'react-dom/client';
- import TagManager from 'react-gtm-module'
-import App from './App'
+import ReactDOM from 'react-dom/client';
 
-const tagManagerArgs = {
-    gtmId: 'GTM-MMJQR6C',
-   // dataLayerName: 'PageDataLayer'
-}
+//import App from './App'
+import Application from './Application';
+
  
-TagManager.initialize(tagManagerArgs)
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(
-
-<App/>
+<Application/>
 );
 
 // If you want to start measuring performance in your app, pass a function
